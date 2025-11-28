@@ -1,0 +1,10 @@
+{
+    "name": "Иван Иванов",
+    "age": 30,
+    "is_active": true,
+    "courses": [
+        "Python",
+        "Git"
+    ],
+    "passport": null
+}
