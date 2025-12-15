@@ -39,8 +39,10 @@ class CreateCourseRequestSchema(BaseModel):
     preview_file_id: str = Field(alias="previewFileId", default_factory=fake.uuid4)
     created_by_user_id: str = Field(alias="createdByUserId", default_factory=fake.uuid4)
 
+
 class CreateCourseResponseSchema(BaseModel):
     course: CourseSchema
+
 
 class UpdateCourseRequestSchema(BaseModel):
     """
@@ -52,3 +54,7 @@ class UpdateCourseRequestSchema(BaseModel):
     min_score: int | None = Field(alias="minScore", default_factory=fake.sentence)
     description: str | None = Field(default_factory=fake.text)
     estimated_time: str | None = Field(alias="estimatedTime", default_factory=fake.estimated_time)
+
+
+class UpdateCourseResponseSchema(BaseModel):
+    course: CourseSchema
