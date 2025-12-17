@@ -1,10 +1,12 @@
 from clients.api_client import APIClient
+import allure
 from clients.public_http_builder import get_public_http_client
 from httpx import Response
 from clients.authentication.authentication_schema import LoginRequestSchema, LoginResponseSchema, RefreshRequestSchema
 
 
 class AuthenticationClient(APIClient):
+    @allure.step("Authenticate user")
     def login_api(self, request: LoginRequestSchema) -> Response:
         """
         :param request: Словарь с email и password.
@@ -12,12 +14,15 @@ class AuthenticationClient(APIClient):
         """
         return self.post("api/v1/authentication/login", json=request.model_dump(by_alias=True))
 
+
+    @allure.step("Refresh authentication token")
     def refresh_api(self, request: RefreshRequestSchema) -> Response:
         """
         :param request: Словарь с refreshToken.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.post("api/v1/authentication/refresh", json=request.model_dump(by_alias=True))
+
 
     def login(self, request: LoginRequestSchema) -> LoginResponseSchema:
         response = self.login_api(request)

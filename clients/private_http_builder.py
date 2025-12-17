@@ -1,6 +1,7 @@
 from httpx import Client
 from pydantic import BaseModel
 from functools import lru_cache
+import allure
 
 from clients.authentication.authentication_client import get_authentication_client
 from clients.authentication.authentication_schema import LoginRequestSchema
