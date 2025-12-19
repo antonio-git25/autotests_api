@@ -51,6 +51,7 @@ class TestCourses:
         assert_create_course_response(request, response_data)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
+        allure.attach.file("./testdata/9a4669ae.png", name="Attached file", attachment_type=allure.attachment_type.PNG)
 
 
     @allure.tag(AllureTag.GET_ENTITIES)

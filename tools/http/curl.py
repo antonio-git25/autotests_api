@@ -1,3 +1,4 @@
+import httpx
 from httpx import Request, RequestNotRead
 
 
@@ -14,3 +15,4 @@ def make_curl_from_request(request: Request) -> str:
         pass
 
     return " \\\n  ".join(result)
+
