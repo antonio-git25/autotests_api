@@ -33,6 +33,9 @@ class Settings(BaseSettings):
         allure_results_dir = DirectoryPath("./allure-results")
         allure_results_dir.mkdir(exist_ok=True)
 
+        allure_results_dir = DirectoryPath("./inner_logs")
+        allure_results_dir.mkdir(exist_ok=True)
+
         return Settings(allure_results_dir=allure_results_dir)
 
 
