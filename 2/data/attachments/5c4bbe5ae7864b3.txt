@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDIxOjUwOjA3Ljk3MDc3MCIsInVzZXJfaWQiOiIyYWRhOWZmZS1hMjVjLTRiZGUtYWIwOC01MmQzZGQyZGM5ODMifQ.buhp1hKdjNrQnSMABXoA-ls3N2ITSgtG11x13E89t4M' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Goal appear white wide PM PM.","maxScore":95,"minScore":10,"description":"Team should describe they. Research possible expert pass usually let city.","estimatedTime":"4 weeks","previewFileId":"cb9b8d38-449b-4a4e-aa76-45f786fd2f94","createdByUserId":"2ada9ffe-a25c-4bde-ab08-52d3dd2dc983"}'

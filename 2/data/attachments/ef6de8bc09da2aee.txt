@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDIxOjUwOjExLjY1MTYwOCIsInVzZXJfaWQiOiI2ZmE0NDJlOS03MzJjLTRkZTItODVkNS02ZWIzODgzZGZhOTAifQ.V7ZsX9WtYhYM6Cv9MRX_BAMJoS2pOInGNFGD5-BXbj8' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agency girl street fly.","maxScore":94,"minScore":27,"description":"Resource purpose fear suggest. Large they seven a both politics we rate. Beyond parent area rock.","estimatedTime":"5 weeks","previewFileId":"47a7b762-7628-4559-b91e-614f0376ae55","createdByUserId":"6fa442e9-732c-4de2-85d5-6eb3883dfa90"}'

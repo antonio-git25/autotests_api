@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDIxOjUwOjExLjA2OTQxMiIsInVzZXJfaWQiOiJhZDI1MWEzNS01M2ZmLTRlNDItYjJhMS00MjE0Y2Y4NTM2MmUifQ.6_WfNQw9BpizNbg2y5k6j3YcAr8PXIDXMRqs23xFplw' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Care support learn computer detail account sign.","maxScore":76,"minScore":18,"description":"Already town issue describe with interest state. Purpose technology attention economic. Apply better above those.\nDog movement common next. Focus place director.","estimatedTime":"6 weeks","previewFileId":"6649f8b9-05a8-4c75-b3ce-7ca96b36862b","createdByUserId":"ad251a35-53ff-4e42-b2a1-4214cf85362e"}'

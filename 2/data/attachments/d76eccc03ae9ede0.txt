@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDIxOjUwOjA4LjYxOTA5NiIsInVzZXJfaWQiOiJiOTM4MmU5YS1hZDk4LTQxZGYtOWJhOS05ZTJhZjY3MDY2ZGEifQ.eWdQJDhUjmEUrWA_yjjxKuwxISCVHVRmkeciROwDx7Y' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Way response fight recognize news ask.","maxScore":91,"minScore":22,"description":"Three environment we opportunity.\nHeart health report maybe nothing operation. Group still life pattern lose challenge. Letter difference allow task former total will watch.","estimatedTime":"7 weeks","previewFileId":"29885d8a-2033-4dab-af66-46435d6e8e37","createdByUserId":"b9382e9a-ad98-41df-9ba9-9e2af67066da"}'

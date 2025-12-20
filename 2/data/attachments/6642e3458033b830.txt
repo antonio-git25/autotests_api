@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDIxOjUwOjEwLjQyNjAxNSIsInVzZXJfaWQiOiIwNjJiYjJmZC0zMzRiLTQ0ZjAtYmY4My1iYjhjNzViNTg2ODcifQ.hcpZvoRrAY_7Bi5Ne2sAK1zT9J-u9sZlb_jPu4oMiMo' \
+  -H 'content-length: 303' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sound design cold front imagine put.","courseId":"e496e0ea-78ac-4f35-b0a6-7b210666a0b8","maxScore":83,"minScore":29,"orderIndex":9,"description":"They another ready civil both try popular. Phone step hope reveal whose recent commercial. Event material but maintain.","estimatedTime":"4 weeks"}'

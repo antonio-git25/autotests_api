@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDIxOjUwOjEwLjQyNjAxNSIsInVzZXJfaWQiOiIwNjJiYjJmZC0zMzRiLTQ0ZjAtYmY4My1iYjhjNzViNTg2ODcifQ.hcpZvoRrAY_7Bi5Ne2sAK1zT9J-u9sZlb_jPu4oMiMo' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prove necessary which happy table sea.","maxScore":87,"minScore":20,"description":"Help easy anything talk among. She ground beyond. Teach growth difference approach guy.\nOffer activity return site perhaps exactly. Suddenly recently until rather.","estimatedTime":"1 weeks","previewFileId":"18841611-0083-4b0f-a055-5b89206a96c8","createdByUserId":"062bb2fd-334b-44f0-bf83-bb8c75b58687"}'
