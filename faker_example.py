@@ -13,3 +13,4 @@ user_data = {
     "age": fake.random_int(min=18, max=100)
 }
 print(user_data)
+print(user_data)
