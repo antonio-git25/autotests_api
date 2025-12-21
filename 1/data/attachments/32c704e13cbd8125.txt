@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9361fac7-453f-4bcb-a6f1-b5ce150a41b4' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjA3OjE0Ljk0ODM5NiIsInVzZXJfaWQiOiIwMDJkYTRjOS03OGQ2LTQ1OTMtOWMyMC0yOTdkZDg5OTQ0ZjcifQ.LjNdLrn-0otjWIHMLGOjck1KPxFJnJzlIFX7zfpUlIw' \
+  -H 'content-length: 287' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Least picture well despite site middle candidate.","maxScore":60,"minScore":19,"description":"Least hair blood list. Part serious only take.\nUse shake significant young. Word draw according beat. Attention finally this inside card would second or.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjA3OjEzLjQ2ODk4OCIsInVzZXJfaWQiOiJkMGFmZGFjMC1kNDBkLTQwZDQtOGVjYy04MmVjYzFmYzVhNjMifQ.2alxt06oQGMICjWDsZilEi9KJ6TFmdhHEAqBdXlTCIg' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Month when effort.","maxScore":65,"minScore":15,"description":"Decide adult change life hot budget production. Themselves production hear head democratic lay. Hair form wonder development reduce final.","estimatedTime":"1 weeks","previewFileId":"ce24eb3b-9184-4c90-8228-a3e9e257f8b1","createdByUserId":"d0afdac0-d40d-40d4-8ecc-82ecc1fc5a63"}'

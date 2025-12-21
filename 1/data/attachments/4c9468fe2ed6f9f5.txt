@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjA3OjE3LjYxODE2OCIsInVzZXJfaWQiOiI3NDNiZjYyMS00ZDUxLTQ0YjktYWVkZS1mNTYwYjE2NTJiNDIifQ.HuB__O_xBlasCxYgdoQT2GvPyDQ9HZjVC37hbv9yQV0' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Available manage evening decision offer.","courseId":"e5bed816-d609-4303-aa12-af838fa29cfb","maxScore":60,"minScore":16,"orderIndex":39,"description":"Room page range manager matter. Lose national final discover. Program heart on leader. Event save view smile pull market.","estimatedTime":"3 weeks"}'

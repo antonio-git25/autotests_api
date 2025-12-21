@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjA3OjE3LjM0NDU1NyIsInVzZXJfaWQiOiI4ZWQxNzYzZS05Y2FhLTRmOTAtYmIxOC1lM2Y3YTRhMjAzYmIifQ.0t_rHYKYghyJovw6rAiHJJsAGlybHUH7mDKio2P8FpY' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Large instead red political energy.","maxScore":60,"minScore":27,"description":"Herself change information bed physical over. Administration value guess just begin.\nCarry policy community important something. Boy where just approach already dinner act.","estimatedTime":"1 weeks","previewFileId":"66a48097-1608-4112-8956-0a029f54db40","createdByUserId":"8ed1763e-9caa-4f90-bb18-e3f7a4a203bb"}'

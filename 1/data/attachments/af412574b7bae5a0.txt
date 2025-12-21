@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjA3OjE2LjE0MzA1OSIsInVzZXJfaWQiOiI5M2FkYmNiZC0zZjExLTRkNTAtOWRhMi0zYTRhNmJmNzc0YjAifQ.yZJaEmjxtvpqsCEU8mBYoBGeA5OhomSeK47LWFXB7U4' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reach international meeting successful believe.","maxScore":70,"minScore":13,"description":"First agency front per continue tell. Author alone prevent often box ahead marriage. Interest most special tonight stay project baby ability.\nOnce public south student.","estimatedTime":"4 weeks","previewFileId":"391e6a0c-dc58-480c-9f0d-e3eb695e43d2","createdByUserId":"93adbcbd-3f11-4d50-9da2-3a4a6bf774b0"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjA3OjE2LjQxNTk2NyIsInVzZXJfaWQiOiI0ZDVkOTRkZi00ZjUyLTRmNTUtYTNiZi05ZmUyODMxMmE1NGYifQ.YJPlfKxUrWmhqIu2mKNFZLGVssIG4sM-7ybjBDQyU4s' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Likely add onto art.","maxScore":95,"minScore":9,"description":"It once major music back major without.\nGround treat week street here admit situation. Whole land week yes process.","estimatedTime":"3 weeks","previewFileId":"ba136ca0-870a-4a45-9475-98c9326b3398","createdByUserId":"4d5d94df-4f52-4f55-a3bf-9fe28312a54f"}'

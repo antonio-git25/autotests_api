@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjA3OjE3LjYxODE2OCIsInVzZXJfaWQiOiI3NDNiZjYyMS00ZDUxLTQ0YjktYWVkZS1mNTYwYjE2NTJiNDIifQ.HuB__O_xBlasCxYgdoQT2GvPyDQ9HZjVC37hbv9yQV0' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Customer fish network range eye leader those.","maxScore":85,"minScore":30,"description":"Across us environmental list. Least job call increase probably.\nRich hit security hit.\nPublic feeling manager. Reality decision quality kitchen. Our environmental rule soon.","estimatedTime":"1 weeks","previewFileId":"99ed235c-a1ce-43c7-a7dc-7e3bb270bdf7","createdByUserId":"743bf621-4d51-44b9-aede-f560b1652b42"}'

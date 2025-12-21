@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjA3OjE1LjIyMjI3MiIsInVzZXJfaWQiOiIzMzU4MTc5NC0zZjIwLTQ1MzAtYWI5ZC1mYzA0NjYzMjUyZDUifQ.kalYH6AflwhLLFvcCGHoWYqZizBU3xv9mlZlzIs_-r4' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ever produce grow pass sea yourself.","maxScore":76,"minScore":4,"description":"Performance push apply spend. Involve lot quality. Before kind commercial development building.\nHelp receive example find off politics movie seven. Side say thousand nothing series they others.","estimatedTime":"7 weeks","previewFileId":"91fc0d44-a3bf-49a1-8bca-91c74d0bb0e5","createdByUserId":"33581794-3f20-4530-ab9d-fc04663252d5"}'

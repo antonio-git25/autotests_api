@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjA3OjE0LjA1MjEyNiIsInVzZXJfaWQiOiI5NjVlZmFiNi02OGVhLTQ2MGEtOTE5Yy0wODU1ZTY5ODMxZWUifQ.Pg2kj1T6h2r4M8iFamSCjDZmD17X7r_njSAG8jSIo3A' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Man respond across approach event small stay.","maxScore":87,"minScore":16,"description":"Watch usually nation former school air probably. Fast remember there. Stand receive into bar possible pull.","estimatedTime":"9 weeks","previewFileId":"2601e85e-50ef-487a-9e65-b537591ac9ad","createdByUserId":"965efab6-68ea-460a-919c-0855e69831ee"}'

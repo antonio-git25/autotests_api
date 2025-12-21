@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjA3OjE2LjQxNTk2NyIsInVzZXJfaWQiOiI0ZDVkOTRkZi00ZjUyLTRmNTUtYTNiZi05ZmUyODMxMmE1NGYifQ.YJPlfKxUrWmhqIu2mKNFZLGVssIG4sM-7ybjBDQyU4s' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Meet choice lose.","courseId":"f71ee9ec-6877-4405-9522-af3fb36391c9","maxScore":88,"minScore":27,"orderIndex":1,"description":"Manage always these how owner lose.\nDiscuss thousand school key sell important son. Respond those team success letter everyone. Now outside fine doctor present wait.","estimatedTime":"5 weeks"}'
