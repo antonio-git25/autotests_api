@@ -22,13 +22,6 @@ on:
           - exercises
         default: regression
 
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-
 
 jobs:
   run-tests:
