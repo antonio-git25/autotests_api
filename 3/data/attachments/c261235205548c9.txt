@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjQyOjUwLjAzMzExMyIsInVzZXJfaWQiOiJhZmVjNWEzYy1jYmM4LTRlMjgtYWJiYS00MGY0YWM5NzAwNDgifQ.2Gz4tHnlh1Cj5m8X0qGy7pYQFNPQyrFjkNRyamHyYhw' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reflect child Mr allow big these.","maxScore":55,"minScore":29,"description":"Should necessary discover. Past mission leg worker building note. Respond benefit require wall until near billion research.","estimatedTime":"5 weeks","previewFileId":"eec9f2cc-6053-4e48-83e6-f1dce7977b09","createdByUserId":"afec5a3c-cbc8-4e28-abba-40f4ac970048"}'

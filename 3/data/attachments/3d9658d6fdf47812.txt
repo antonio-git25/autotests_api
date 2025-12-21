@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjQyOjQ4LjIzMzgzNCIsInVzZXJfaWQiOiIwMmRjMmY4My1lYzgxLTRmNjUtOGY4MC00NDdmZjk0YTIxN2IifQ.ae8kFZZgV5lxcKt008zM2wSUw9XkcwbnhTlXgt6pe7A' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Do old require family.","maxScore":63,"minScore":27,"description":"Author throughout soldier note think good. Show dinner democratic general.\nPm let see truth. Window approach but feel card activity. Together behavior couple reveal. About customer matter by manager.","estimatedTime":"3 weeks","previewFileId":"a42264bc-e4b1-41e1-876a-ce1e4719ae8b","createdByUserId":"02dc2f83-ec81-4f65-8f80-447ff94a217b"}'

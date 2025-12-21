@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjQyOjQ5LjQ1NTY1NSIsInVzZXJfaWQiOiJjYzUwYTM1YS01OWU4LTRlMDEtOTI3NC1iZDAzNDM0NzU1NGMifQ.aomezFMd3_GbiNcVcAEfb9MePaIfmRXIT3wzgXTBKWs' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Family consumer provide miss way establish political.","courseId":"ed7c35da-0eae-4b99-9c23-6acf9209b8ad","maxScore":50,"minScore":22,"orderIndex":94,"description":"Several on hair every. Director future their others together know west cover. Buy list sea.","estimatedTime":"1 weeks"}'

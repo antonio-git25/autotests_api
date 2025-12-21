@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjQyOjQ4LjgxOTg4NCIsInVzZXJfaWQiOiI0NDk3ZjcyMy00YjIxLTQyOWQtOWI2Mi0xM2VkODAxYTg4MjkifQ.Dp4i3ETXyB3NXjyPihi0XI4YkNacg7zCJp04dAWx7PQ' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Country style decide property chair word.","courseId":"51e522fa-8cf8-4cd3-9f49-4ee5071cab75","maxScore":85,"minScore":29,"orderIndex":29,"description":"Oil during address door debate.\nBoard that sort.\nAfter reveal relate carry. Continue wide energy wish stuff.","estimatedTime":"8 weeks"}'

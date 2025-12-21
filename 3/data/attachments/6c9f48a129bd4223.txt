@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e257671a-8bc9-4417-8e70-371d0b471f66' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjQyOjQ4LjIzMzgzNCIsInVzZXJfaWQiOiIwMmRjMmY4My1lYzgxLTRmNjUtOGY4MC00NDdmZjk0YTIxN2IifQ.ae8kFZZgV5lxcKt008zM2wSUw9XkcwbnhTlXgt6pe7A' \
+  -H 'content-length: 304' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Station he another program join.","maxScore":50,"minScore":9,"description":"Stage certain standard high figure share. Whatever front detail some scientist. Politics event teacher policy soldier get.\nToo interview beyond fact affect around. Try tree many last black.","estimatedTime":"4 weeks"}'

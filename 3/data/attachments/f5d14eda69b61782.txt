@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjQyOjQ5LjQ1NTY1NSIsInVzZXJfaWQiOiJjYzUwYTM1YS01OWU4LTRlMDEtOTI3NC1iZDAzNDM0NzU1NGMifQ.aomezFMd3_GbiNcVcAEfb9MePaIfmRXIT3wzgXTBKWs' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Book part sure yeah base.","maxScore":76,"minScore":14,"description":"Ok rise degree east not entire foot inside. Approach wish what may himself nature.\nImage movement their final human situation film.","estimatedTime":"10 weeks","previewFileId":"22d54d26-b387-4c7b-a1fc-1827cd796cf5","createdByUserId":"cc50a35a-59e8-4e01-9274-bd034347554c"}'

@@ -1,0 +1,27 @@
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/users
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/users "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/authentication/login "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/files
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/files "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/courses
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/courses "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/exercises "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base_validation.py:15 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises_validation.py:25 Check create exercise response
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "title" equals to Country style decide property chair word.
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "course_id" equals to 51e522fa-8cf8-4cd3-9f49-4ee5071cab75
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "max_score" equals to 85
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "min_score" equals to 29
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "order_index" equals to 29
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "description" equals to Oil during address door debate.
+Board that sort.
+After reveal relate carry. Continue wide energy wish stuff.
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "estimated_time" equals to 8 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjQyOjQ4LjgxOTg4NCIsInVzZXJfaWQiOiI0NDk3ZjcyMy00YjIxLTQyOWQtOWI2Mi0xM2VkODAxYTg4MjkifQ.Dp4i3ETXyB3NXjyPihi0XI4YkNacg7zCJp04dAWx7PQ' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Require sing tree tend agree north old.","maxScore":63,"minScore":9,"description":"Interest official else special bit. Police focus among across every affect tend. Huge knowledge analysis feel size imagine sort respond.","estimatedTime":"7 weeks","previewFileId":"e9705ca4-2228-402f-ab62-7165b2b9641f","createdByUserId":"4497f723-4b21-429d-9b62-13ed801a8829"}'

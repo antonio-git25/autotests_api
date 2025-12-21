@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjQyOjUwLjY3NzM4MiIsInVzZXJfaWQiOiJmMzU0MjVmNy02NmQ3LTRiZTgtOTIxYy0wZWVkNDZkMTczOTIifQ.3pf4bIHN5g89qOs6F-N-oPNbWPK7d6CPJclG54zzqgw' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Government control heart why together.","courseId":"ae6cdd8c-8b2e-46c4-9d56-72bc8ef0fb3b","maxScore":99,"minScore":27,"orderIndex":17,"description":"Walk sing few lot instead American past. Natural investment upon social alone individual sign. View maybe want exactly here president.","estimatedTime":"10 weeks"}'

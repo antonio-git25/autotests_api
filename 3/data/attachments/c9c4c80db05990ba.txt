@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjQyOjUxLjI1NTUxMCIsInVzZXJfaWQiOiIwNzdkZWFiMS1hODIxLTRkYTItYjhhYy0wYTE0NTM1NGJjYmIifQ.t6il39R4_MRuMe5mq2_UgWeZtvipEMMpLLiXgx-ZKT0' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pay effort thought say professor thought couple consider.","courseId":"268be1ee-443e-407f-9add-b92e4d86fe41","maxScore":80,"minScore":30,"orderIndex":76,"description":"Sometimes boy a people. Weight throw entire significant picture range floor. Company student behind board deal service.\nDown stand forget very use. Card news eat child back.","estimatedTime":"10 weeks"}'

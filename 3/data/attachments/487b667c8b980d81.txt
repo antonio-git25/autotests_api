@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjQyOjQ3LjA2MDk1MSIsInVzZXJfaWQiOiIzY2JlZmZkNS02Y2QyLTQ2NjItOGY5OS0xYWUwNWYwYTYyMzIifQ.GOpqcheS7jpBgMyD5KNOMlkt6x4Pim9f1m9I9tclveE' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agency yeah successful by little too.","maxScore":66,"minScore":22,"description":"Reflect imagine third short concern general. Political single prepare once. Realize management among describe meet.\nProduction door some every. Almost question production author.","estimatedTime":"8 weeks","previewFileId":"0409e2d5-2fe2-41cc-b380-6cd211668f73","createdByUserId":"3cbeffd5-6cd2-4662-8f99-1ae05f0a6232"}'

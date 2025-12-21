@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjQyOjUxLjI1NTUxMCIsInVzZXJfaWQiOiIwNzdkZWFiMS1hODIxLTRkYTItYjhhYy0wYTE0NTM1NGJjYmIifQ.t6il39R4_MRuMe5mq2_UgWeZtvipEMMpLLiXgx-ZKT0' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Attack hundred hard born different.","maxScore":74,"minScore":20,"description":"Commercial marriage within drive.\nResult table difficult information job you ok. Career song population age attorney hour already form. Billion huge exactly event behavior test interest personal.","estimatedTime":"3 weeks","previewFileId":"9393a444-2494-4074-862b-ee75cc4f5e37","createdByUserId":"077deab1-a821-4da2-b8ac-0a145354bcbb"}'

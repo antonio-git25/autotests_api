@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjQyOjUwLjAzMzExMyIsInVzZXJfaWQiOiJhZmVjNWEzYy1jYmM4LTRlMjgtYWJiYS00MGY0YWM5NzAwNDgifQ.2Gz4tHnlh1Cj5m8X0qGy7pYQFNPQyrFjkNRyamHyYhw' \
+  -H 'content-length: 270' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Second example assume this dinner.","courseId":"6b90fb87-f4e2-4ef9-a409-ef65459deace","maxScore":68,"minScore":25,"orderIndex":4,"description":"Among Republican car. Important do rather full should side. Make president short chair.","estimatedTime":"10 weeks"}'

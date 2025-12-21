@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjQyOjQ3LjY1NDU4NSIsInVzZXJfaWQiOiJhNGQ4OGYxYy02MGZmLTQ4MDEtODFjNy1mYWY1MDUxZGJjMTkifQ.eezlhp1zqci0W6IcH6QuP6dPuhyuBM8pNkGTuDIn83c' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Term first Democrat either him manage institution street.","maxScore":68,"minScore":4,"description":"Watch rock but happen television myself process. However miss participant street record reality. Turn look agency stand exist. Activity beat voice find.","estimatedTime":"5 weeks","previewFileId":"160bdad7-6dc1-461f-bf47-f5c9f9a9aefc","createdByUserId":"a4d88f1c-60ff-4801-81c7-faf5051dbc19"}'

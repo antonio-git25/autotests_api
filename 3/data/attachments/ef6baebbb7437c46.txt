@@ -1,0 +1,22 @@
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/users
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/users "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/authentication/login "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/files
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/files "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/courses
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/courses "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base_validation.py:15 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses_validation.py:23 Check create course response
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "title" equals to Term first Democrat either him manage institution street.
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "max_score" equals to 68
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "min_score" equals to 4
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "description" equals to Watch rock but happen television myself process. However miss participant street record reality. Turn look agency stand exist. Activity beat voice find.
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "estimated_time" equals to 5 weeks
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "preview_file_id" equals to 160bdad7-6dc1-461f-bf47-f5c9f9a9aefc
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "created_by_user_id" equals to a4d88f1c-60ff-4801-81c7-faf5051dbc19
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

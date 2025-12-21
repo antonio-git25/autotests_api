@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjQyOjUwLjY3NzM4MiIsInVzZXJfaWQiOiJmMzU0MjVmNy02NmQ3LTRiZTgtOTIxYy0wZWVkNDZkMTczOTIifQ.3pf4bIHN5g89qOs6F-N-oPNbWPK7d6CPJclG54zzqgw' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wrong soldier difference some.","maxScore":54,"minScore":19,"description":"Turn pay score threat. Yeah walk teach just enter.\nRoad man under. Month nature person meeting factor. Compare environment probably crime always do in. Give focus majority for.","estimatedTime":"5 weeks","previewFileId":"8ce2eea4-ffe2-4dc0-8756-753d632c7c8a","createdByUserId":"f35425f7-66d7-4be8-921c-0eed46d17392"}'
