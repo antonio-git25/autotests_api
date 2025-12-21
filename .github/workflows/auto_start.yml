@@ -7,20 +7,12 @@
 name: API tests AutoPipeline
 
 on:
-  workflow_dispatch: #for manual running
-    inputs:
-      marker:
-        description: "Choose scope of tests:"
-        required: true
-        type: choice
-        options:
-          - users
-          - regression
-          - authentication
-          - files
-          - courses
-          - exercises
-        default: regression
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 
 jobs:
@@ -66,7 +58,7 @@ jobs:
       # 7. Шаг для запуска тестов с использованием pytest и генерации отчётов Allure
       - name: Run API tests with pytest and generate Allure results
         run: |
-          pytest -m ${{ github.event.inputs.marker }} --alluredir=allure-results --numprocesses=2
+          pytest -m regression --alluredir=allure-results --numprocesses=2
 
       # 8. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
