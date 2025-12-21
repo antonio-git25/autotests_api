@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjI5OjI4LjQ3NzcwOSIsInVzZXJfaWQiOiI0OWYyMTJhMi0wNmJiLTQxYjYtYThiYi00MzkzMWY2YjBmODQifQ.IQNLorzkHfa3Yu-Pmz4hXjrs4ueTtotY1DnkyHqBLIc' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Partner girl move news.","courseId":"ca786276-73fc-402f-8289-55a2dde561ac","maxScore":61,"minScore":5,"orderIndex":24,"description":"Apply feel international suggest conference campaign. Just cover project quality.\nProtect field drop dinner thus. Growth lose mind concern. Present require until day never meeting.","estimatedTime":"2 weeks"}'

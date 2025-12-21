@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjI5OjI3LjU4NDY5MSIsInVzZXJfaWQiOiJlZTI3ZjgzMy1kNzNiLTQ2ZjMtYTJlNS1hOGQ4NGJjMzZmZTQifQ.q8DlVqcS7Q4f5QnGQi40f_xvGn35EGBedmPzrlDc1N0' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Shoulder consumer box turn country.","maxScore":53,"minScore":21,"description":"Teacher hotel glass staff pull. Strong her natural adult series.","estimatedTime":"4 weeks","previewFileId":"805be491-2c4e-4822-9397-9ae251f64294","createdByUserId":"ee27f833-d73b-46f3-a2e5-a8d84bc36fe4"}'

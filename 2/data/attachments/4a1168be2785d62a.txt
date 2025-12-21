@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjI5OjI3Ljg0MzAwNSIsInVzZXJfaWQiOiJjNjg3ODk4NS1kMDUwLTQ5MzgtOTcwNy01YWZjZWIzMzQ3ZTUifQ.9ETpyeWAHkrp4h32-nWQ-sWz-88pT9vUEvAB5PG7tfE' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sign fly draw.","maxScore":100,"minScore":11,"description":"Author happen sister herself. Population approach responsibility health different.\nJob family first weight develop this knowledge. Allow forward as if campaign they trade.","estimatedTime":"9 weeks","previewFileId":"f88f1b74-ddc9-4ae9-b3c9-9a2a13f45474","createdByUserId":"c6878985-d050-4938-9707-5afceb3347e5"}'

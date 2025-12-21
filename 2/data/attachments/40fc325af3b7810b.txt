@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjI5OjI2LjY4Mjg3NSIsInVzZXJfaWQiOiIyMmRmMTA2MS1mODY2LTQwYmQtOTYzYS0yYjhkOTBkOTE5MzQifQ.aGMNbMmsihQNbzXgIdjpDNfBgOpMDf3X_2MQeNwdu5g' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"May film should nothing young sort guy.","maxScore":89,"minScore":3,"description":"Future rich born firm accept question left. Point fire together face former expect certain.","estimatedTime":"10 weeks","previewFileId":"e1c8355d-23d8-4d16-939c-e057018338b5","createdByUserId":"22df1061-f866-40bd-963a-2b8d90d91934"}'

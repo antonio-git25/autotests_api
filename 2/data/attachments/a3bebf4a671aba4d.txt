@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjI5OjI2LjY4Mjg3NSIsInVzZXJfaWQiOiIyMmRmMTA2MS1mODY2LTQwYmQtOTYzYS0yYjhkOTBkOTE5MzQifQ.aGMNbMmsihQNbzXgIdjpDNfBgOpMDf3X_2MQeNwdu5g' \
+  -H 'content-length: 282' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pm decide peace.","courseId":"2b6f2193-72eb-4e20-b4b2-bef16a716241","maxScore":92,"minScore":19,"orderIndex":71,"description":"Building later cause tax near everyone management. Either white tend report we decide free.\nYes chair fine form boy.","estimatedTime":"5 weeks"}'
