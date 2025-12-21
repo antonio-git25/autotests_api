@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDIyOjA1OjQ3Ljc0ODczNiIsInVzZXJfaWQiOiJiMTU3ODE5ZC00ODMyLTQ0ZTUtYTYyNy0yMTBkNjkwZTA4MmEifQ.EOVI3xfp8NuaKKeUCDnyxTd6kNS58Bsyr2IbwpfGxbY' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Various chance special.","maxScore":51,"minScore":20,"description":"Though company health college church city simply. Reality course PM benefit.\nNone force professor hundred inside.","estimatedTime":"10 weeks","previewFileId":"a384a465-605b-4b5c-b5a3-41b3b198c4c5","createdByUserId":"b157819d-4832-44e5-a627-210d690e082a"}'

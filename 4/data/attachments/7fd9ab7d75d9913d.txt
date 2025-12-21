@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDIyOjA1OjUwLjE5MzI5MCIsInVzZXJfaWQiOiI3ZWE4OWE2Zi0yNjAwLTQ5MzQtYmIxNS04M2ExZDA3YzUxODUifQ.TAqSXJjFbimsJs0JUc5wtHIF76jebom0QVesJX0JYd8' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Possible best give join.","maxScore":97,"minScore":17,"description":"Bad yourself team own.\nBe different decide detail. Popular certain follow.","estimatedTime":"4 weeks","previewFileId":"f12ebf15-7ef5-4c4f-bc1c-ae859b9cbc66","createdByUserId":"7ea89a6f-2600-4934-bb15-83a1d07c5185"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDIyOjA1OjUwLjc2OTgyOCIsInVzZXJfaWQiOiIxMzA5YThhNi05YTQ3LTQxZjktYWM3ZS1mYTFiYWZiOTczMzkifQ.eA7qZ-G-SxmiFnB0evtU869S1FXQLiVLkJsCn6b3tc0' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Though remember above likely risk suggest.","maxScore":74,"minScore":9,"description":"Join risk cost. Senior food recent career yourself white inside. Other follow raise source Mr role.","estimatedTime":"5 weeks","previewFileId":"906c8bfa-e4e7-4025-b603-1a791346af35","createdByUserId":"1309a8a6-9a47-41f9-ac7e-fa1bafb97339"}'

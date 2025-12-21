@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDIyOjA1OjUxLjQwMzAwNSIsInVzZXJfaWQiOiI2MThkZThhMy0zMWU1LTQ0NGMtOWJiYy1mYjBlZTM0MjFjMmMifQ.obMvJbEMmxde1C20lBa1KGRIZfsEOCXE4vMdufcVizM' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Instead series develop raise word treatment article.","maxScore":99,"minScore":15,"description":"Keep collection hour.\nTogether technology every some. Yet against million more second receive camera.","estimatedTime":"7 weeks","previewFileId":"6bd6d1c1-917a-4a70-9df9-481cfad509e7","createdByUserId":"618de8a3-31e5-444c-9bbc-fb0ee3421c2c"}'

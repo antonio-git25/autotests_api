@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDIyOjA1OjQ5LjU1MDU3MCIsInVzZXJfaWQiOiJlYjY5ODRhMy02MWFlLTQ2MjgtYjc4Yi01YzA4ZGRlMWUzZDIifQ.tQAXps6WALz-ezCxCMITBPShbuHSYcF6kZUiv7qp5-o' \
+  -H 'content-length: 284' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Amount health play support arm religious.","courseId":"f24437d4-6767-4917-81dd-f5401baf69db","maxScore":59,"minScore":3,"orderIndex":59,"description":"Surface carry series month model stage group. Performance be our half unit table back behavior.","estimatedTime":"7 weeks"}'

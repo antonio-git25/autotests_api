@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/30fae8b9-c280-4877-96b5-0181ecaea38b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDIyOjA1OjQ4Ljk2NTEyMCIsInVzZXJfaWQiOiIwZTRiNTczZS0yOTZiLTQ0ZGQtODIyYS05MDMzYWY5ZjBjYmYifQ.-OWHjsH-1Qusic0BNyX37S6EBoCcep-82HyEGwNxnbI' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trade guy sure clear.","maxScore":64,"minScore":3,"description":"Race care system court responsibility partner.\nSubject develop with give money. Old argue others information piece.\nMorning safe future worry soon. Campaign she more teach color current management.","estimatedTime":"5 weeks"}'

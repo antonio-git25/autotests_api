@@ -1,0 +1,31 @@
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/users
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/users "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/authentication/login "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/files
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/files "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/courses
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/courses "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/exercises "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:22 Make GET request to http://localhost:8000/api/v1/exercises/fa527f44-3b92-45dc-b98f-b165bc874b78
+INFO     httpx:_client.py:1025 HTTP Request: GET http://localhost:8000/api/v1/exercises/fa527f44-3b92-45dc-b98f-b165bc874b78 "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/exercises/fa527f44-3b92-45dc-b98f-b165bc874b78
+INFO     BASE_ASSERTIONS:base_validation.py:15 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises_validation.py:85 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises_validation.py:63 Check exercise
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "id" equals to fa527f44-3b92-45dc-b98f-b165bc874b78
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "title" equals to Understand account finish down large tax try final.
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "course_id" equals to b481c439-17b4-4e04-a428-bd0e9f09c5e5
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "max_score" equals to 60
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "min_score" equals to 11
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "order_index" equals to 26
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "description" equals to Low must land avoid choice start people term.
+Western report big major parent check. Lot glass money open.
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

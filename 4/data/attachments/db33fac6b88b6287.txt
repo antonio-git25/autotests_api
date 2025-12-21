@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDIyOjA1OjUxLjk4NTQxMiIsInVzZXJfaWQiOiI1NTlmNWM5NS1hNTNmLTRiZjQtODVmNi04OTQxMDIzODA1MWMifQ.mYIr7IBKgzBIYl2fQfLpTKzZZVRLiySUcJJk1G4B1lk' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Appear service free professional.","maxScore":96,"minScore":27,"description":"Stop must thought space they alone case.\nDinner blue series but hold amount. Anything five growth read herself buy hundred. Focus score single before successful.","estimatedTime":"9 weeks","previewFileId":"30ed8510-1f75-4ed3-b2ff-f5f2fd30aa5f","createdByUserId":"559f5c95-a53f-4bf4-85f6-89410238051c"}'

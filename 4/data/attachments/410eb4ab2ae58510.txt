@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDIyOjA1OjQ5LjU1MDU3MCIsInVzZXJfaWQiOiJlYjY5ODRhMy02MWFlLTQ2MjgtYjc4Yi01YzA4ZGRlMWUzZDIifQ.tQAXps6WALz-ezCxCMITBPShbuHSYcF6kZUiv7qp5-o' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Most actually account field carry final.","maxScore":72,"minScore":29,"description":"Outside reality buy project. Product season well attack produce range memory. Hold service summer minute last.\nInterest quite away later manage law try.","estimatedTime":"9 weeks","previewFileId":"85745df9-c806-4300-95fd-0b9bba71c4f6","createdByUserId":"eb6984a3-61ae-4628-b78b-5c08dde1e3d2"}'

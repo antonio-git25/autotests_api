@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDIyOjA1OjUxLjQwMzAwNSIsInVzZXJfaWQiOiI2MThkZThhMy0zMWU1LTQ0NGMtOWJiYy1mYjBlZTM0MjFjMmMifQ.obMvJbEMmxde1C20lBa1KGRIZfsEOCXE4vMdufcVizM' \
+  -H 'content-length: 242' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Student item daughter even.","courseId":"844a21c2-f303-4c69-97df-cd4a75718e3a","maxScore":91,"minScore":16,"orderIndex":37,"description":"Political step walk role require approach. Feel dream leader test.","estimatedTime":"9 weeks"}'
