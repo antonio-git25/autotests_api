@@ -27,7 +27,7 @@ create_file_header = {"Authorization": f"Bearer {login_response_data['token']['a
 create_file_response = httpx.post(
     "http://localhost:8000/api/v1/files",
     data={"filename": "9a4669ae.png", "directory": "courses"},
-    files={"upload_file": open('./testdata/9a4669ae.png', 'rb')},
+    files={"upload_file": open('../testdata/9a4669ae.png', 'rb')},
     headers=create_file_header
 )
 create_file_response_data = create_file_response.json()

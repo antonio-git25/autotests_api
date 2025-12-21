@@ -23,3 +23,10 @@ coverage-results
 coverage-history.json
 coverage-report.json
 coverage.html
+
+
+# lesson folders
+WebSocket_server
+TCP_server
+GRPC_server
+LessonFiles
