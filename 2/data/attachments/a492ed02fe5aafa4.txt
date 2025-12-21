@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f1b5f975-674b-42ea-9425-beb1fc922cf7' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjM2OjM1LjMxODU2NCIsInVzZXJfaWQiOiI2ODA4NTA4OC05ZmZkLTQ0NzItODU3MC1kYTQ1OGI2YTJhMWMifQ.Cmuu9pAlySldcGsLlTfZ6PKjVBLDoBeXIXxAUpD4Ch0' \
+  -H 'content-length: 281' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Standard increase current garden again history.","maxScore":92,"minScore":30,"description":"Best region control around bed read top. Something third left near later.\nCourt in message investment rule. Reveal board force after. Card make ahead.","estimatedTime":"1 weeks"}'

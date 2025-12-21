@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/users
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/users "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/authentication/login "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:22 Make GET request to http://localhost:8000/api/v1/users/me
+INFO     httpx:_client.py:1025 HTTP Request: GET http://localhost:8000/api/v1/users/me "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/users/me
+INFO     BASE_ASSERTIONS:base_validation.py:15 Check that response status code equals to 200
+INFO     USERS_ASSERTIONS:users_validation.py:49 Check get user response
+INFO     USERS_ASSERTIONS:users_validation.py:33 Check user
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "id" equals to 433e58bd-4604-4b4c-aca9-76982ede9eff
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "email" equals to marylopez@example.net
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "last_name" equals to Sexton
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "first_name" equals to Michelle
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "middle_name" equals to Morgan
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

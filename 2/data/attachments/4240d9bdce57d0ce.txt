@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjM2OjM1LjkwNzM0MiIsInVzZXJfaWQiOiJlOGFlZmU1NC0yYmQ4LTRlNDUtYWMxZC05NDJiNGQxN2Y0MjgifQ.j7yY3rGsud0E3e2bujhyyW9rrBe53gAAiieylkLKOi4' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Movement rather position.","maxScore":51,"minScore":15,"description":"Since environmental truth able their east government. Glass current save interest production up wish.\nEver activity exactly space fast eat. Main receive approach certainly pay above create.","estimatedTime":"9 weeks","previewFileId":"26d3ad65-c68c-44ae-8516-14e907883954","createdByUserId":"e8aefe54-2bd8-4e45-ac1d-942b4d17f428"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjM2OjM4LjM2MjY2NSIsInVzZXJfaWQiOiI0NjI4MmY0Mi0zYjQ5LTRjMzEtODgxMi0xNTYzZDIyMmIyNTAifQ.N3ITINZv6il91O61espCNc7YAGxRiI7gMxViJfn6i7o' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Machine sport age wrong along care similar from.","maxScore":51,"minScore":24,"description":"Let fly authority guy class organization. Allow available toward strong from only north.\nAdult expert hand treat account. Finish national sound.","estimatedTime":"3 weeks","previewFileId":"f1d02a88-958d-4abf-bbfa-c9d80a8ac8fe","createdByUserId":"46282f42-3b49-4c31-8812-1563d222b250"}'

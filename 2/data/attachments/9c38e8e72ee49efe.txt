@@ -1,0 +1,32 @@
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/users
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/users "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/authentication/login "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/files
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/files "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/courses
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/courses "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/exercises "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:22 Make GET request to http://localhost:8000/api/v1/exercises?courseId=b3855542-7914-42ea-a1eb-660f793ba71c
+INFO     httpx:_client.py:1025 HTTP Request: GET http://localhost:8000/api/v1/exercises?courseId=b3855542-7914-42ea-a1eb-660f793ba71c "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=b3855542-7914-42ea-a1eb-660f793ba71c
+INFO     BASE_ASSERTIONS:base_validation.py:15 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises_validation.py:100 Check get exercises response
+INFO     BASE_ASSERTIONS:base_validation.py:57 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises_validation.py:63 Check exercise
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "id" equals to e4a0a7b6-9232-4223-9bf8-c3759c46201a
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "title" equals to Yard including until free see born admit.
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "course_id" equals to b3855542-7914-42ea-a1eb-660f793ba71c
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "max_score" equals to 87
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "min_score" equals to 26
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "order_index" equals to 32
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "description" equals to Score stop board central. Indeed country truth industry instead behavior and. Plan again realize.
+Win list yet other. Do spring leave peace last.
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

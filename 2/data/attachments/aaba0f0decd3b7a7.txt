@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjM2OjM0LjY2NzE0OSIsInVzZXJfaWQiOiIzNzUwNmZmNi00NjAwLTRkOTQtODQ1Ny00ZDgyMzVkOTZhNTQifQ.aUdxSJhE3e4QhUMmHzcghUrwkztMPN8E9O04qRcRSOU' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Just agency bed ability miss decide economic.","maxScore":50,"minScore":23,"description":"Some hospital medical practice. Actually really of amount unit charge. Step training religious piece material standard.","estimatedTime":"3 weeks","previewFileId":"91279028-424c-419f-b667-24d0dba57111","createdByUserId":"37506ff6-4600-4d94-8457-4d8235d96a54"}'

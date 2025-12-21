@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjM2OjM0LjA4MDk2MiIsInVzZXJfaWQiOiIzYzFlOTQ1NS1hYWVhLTQzNzUtYjA1OS1hY2JjY2UxMGVhNGEifQ.f_YSJ2U_PQzARmJIj4IqoDGua0JYZeAsNKv63gmRJyM' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nor vote pass enough fly.","maxScore":83,"minScore":14,"description":"All because today run we young. Very investment because nor. Live whose inside meet same loss.\nScientist one toward firm. Military light wait travel assume. Large thing ability hour cell.","estimatedTime":"6 weeks","previewFileId":"b1936556-99fd-43c1-9f6d-a4b3a1fb3500","createdByUserId":"3c1e9455-aaea-4375-b059-acbcce10ea4a"}'

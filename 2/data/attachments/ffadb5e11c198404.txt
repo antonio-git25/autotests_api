@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjM2OjM3Ljc3MTA2NyIsInVzZXJfaWQiOiIyOWJiYmU5Zi02N2I4LTQ2ZDktYTY3My01NmZlNmU1MDc4YzgifQ.1tMK06A34njTuuE0zieAFleiwR6arAN22TLto0m_Hkc' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Member administration bill get morning art develop.","maxScore":75,"minScore":4,"description":"Sometimes science truth blue. Defense ability others against mind somebody.","estimatedTime":"8 weeks","previewFileId":"6cc5c27e-8a8f-45aa-b552-9e74e1fd70aa","createdByUserId":"29bbbe9f-67b8-46d9-a673-56fe6e5078c8"}'

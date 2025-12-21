@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjM2OjM1LjMxODU2NCIsInVzZXJfaWQiOiI2ODA4NTA4OC05ZmZkLTQ0NzItODU3MC1kYTQ1OGI2YTJhMWMifQ.Cmuu9pAlySldcGsLlTfZ6PKjVBLDoBeXIXxAUpD4Ch0' \
+  -H 'content-length: 308' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Spend deal participant few despite.","maxScore":57,"minScore":25,"description":"Able spring huge down bill. People say entire education. Free speech deep yes.","estimatedTime":"1 weeks","previewFileId":"852ccc24-f148-4f83-99b9-960793184b76","createdByUserId":"68085088-9ffd-4472-8570-da458b6a2a1c"}'

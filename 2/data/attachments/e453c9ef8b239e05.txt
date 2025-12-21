@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDE4OjM2OjM2LjU0MjY1MiIsInVzZXJfaWQiOiJkMDgzMTNjMS03MDNkLTRmYmEtYjVhMy1kMjdiMDQwYTRlY2EifQ.FtrDRjEm5_-f-6-4GECo-dRni7XHlx7Mio63WMX4jvA' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Particularly owner benefit design.","maxScore":70,"minScore":7,"description":"Support age attention brother entire. Daughter whose open culture over.","estimatedTime":"9 weeks","previewFileId":"10b26f35-4265-4f36-92da-93c61bdcd753","createdByUserId":"d08313c1-703d-4fba-b5a3-d27b040a4eca"}'
