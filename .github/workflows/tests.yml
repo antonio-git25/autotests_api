@@ -7,13 +7,6 @@
 name: API tests
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-
   workflow_dispatch: #for manual running
     inputs:
       marker:
@@ -28,6 +21,13 @@ on:
           - files
           - courses
           - exercises
+
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 
 jobs:
