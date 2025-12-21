@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDIyOjA5OjMzLjI0MzI4MiIsInVzZXJfaWQiOiIzMmE2MTAyYS1lMGI1LTRmZGUtYThiYi0wZDA2YTJlNTVlNDEifQ.yuCPfShIwqHXFUs4_l161czoZ9W9VXFqym5ZaQT8oSY' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Idea all trip use six.","maxScore":56,"minScore":22,"description":"Human arm against keep actually hundred point street. Travel hard happen live full mean term just. Charge write pressure majority surface lose with.","estimatedTime":"9 weeks","previewFileId":"4dbcd1df-3f53-4d5f-816c-d42daa9e8c4b","createdByUserId":"32a6102a-e0b5-4fde-a8bb-0d06a2e55e41"}'

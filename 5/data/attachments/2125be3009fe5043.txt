@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDIyOjA5OjM0LjQxNzQyNiIsInVzZXJfaWQiOiJlYzc3NjNkZi1lOTUxLTRlZWItOGE1Zi0xMzNjNDc2M2ViOWUifQ.tAcEGQTtkfY7QHJKtAcYddtm9-XUWX0vPvi8jJtBJEk' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Oil western affect imagine.","maxScore":66,"minScore":30,"description":"Administration result of teach. Color staff full national whatever measure morning political.","estimatedTime":"2 weeks","previewFileId":"9cbd82d9-be29-429d-ab10-76955b9d4d96","createdByUserId":"ec7763df-e951-4eeb-8a5f-133c4763eb9e"}'

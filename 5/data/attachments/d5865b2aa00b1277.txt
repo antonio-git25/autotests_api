@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDIyOjA5OjM1Ljg4NDg0OCIsInVzZXJfaWQiOiI2MmEzZDY5Mi0xNmMxLTQzZWUtOTQzZS05ZTI3ZmEwNWZhZDEifQ.6obr0E-7m-9eb_Ii1a2aEPPg7OKJUcAPr6ovy8j4P7E' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Late natural raise eight teach.","maxScore":90,"minScore":4,"description":"Officer subject learn paper modern today. Measure plan attention sometimes senior term. Authority send clear fight go. Animal opportunity throughout protect well more this.","estimatedTime":"10 weeks","previewFileId":"37c5a1e5-9de5-479b-983b-8337c55fd97c","createdByUserId":"62a3d692-16c1-43ee-943e-9e27fa05fad1"}'

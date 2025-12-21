@@ -1,0 +1,38 @@
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/users
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/users "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/authentication/login "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/files
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/files "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/courses
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/courses "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:22 Make GET request to http://localhost:8000/api/v1/courses?userId=64c6cb4e-c2a6-43e7-95e1-5bf1771e01a0
+INFO     httpx:_client.py:1025 HTTP Request: GET http://localhost:8000/api/v1/courses?userId=64c6cb4e-c2a6-43e7-95e1-5bf1771e01a0 "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=64c6cb4e-c2a6-43e7-95e1-5bf1771e01a0
+INFO     BASE_ASSERTIONS:base_validation.py:15 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses_validation.py:86 Check get courses response
+INFO     BASE_ASSERTIONS:base_validation.py:57 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses_validation.py:62 Check course
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "id" equals to 13de2d7e-dd7f-45c8-8fb9-cea0d563f9cf
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "title" equals to Indicate college she able.
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "max_score" equals to 57
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "min_score" equals to 11
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "description" equals to Throw politics ask final poor. Power win scientist ok.
+Last second option task. Speak yeah traditional speech way. Will watch compare necessary account nearly.
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "estimated_time" equals to 1 weeks
+INFO     FILES_ASSERTIONS:files_validation.py:39 Check file
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "id" equals to a2a4bca2-81b9-4533-85d6-806ee5105177
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "url" equals to http://localhost:8000/static/tests/c3f81438-36e9-4d0c-8741-015004888273.png
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "filename" equals to c3f81438-36e9-4d0c-8741-015004888273.png
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users_validation.py:33 Check user
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "id" equals to 64c6cb4e-c2a6-43e7-95e1-5bf1771e01a0
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "email" equals to mccoyalan@example.net
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "last_name" equals to Davis
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "first_name" equals to Stephanie
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "middle_name" equals to Lloyd
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

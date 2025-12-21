@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDIyOjA5OjM2LjgwNjkyMiIsInVzZXJfaWQiOiJlMjI1ZjE4OC1kYTVjLTQ3OWEtYjZmMS0zNmI1ZTI4ZGJlMjgifQ.iL5XK61XvWVLwLJBqj9XBVc9D3LlXwCQ_rztInh_n_s' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Moment local suddenly new member end should.","maxScore":92,"minScore":11,"description":"Mr air task cut walk. Yes improve great serious lead piece. Friend campaign happy who life sign.\nAddress raise interview prevent perhaps carry voice senior. Describe PM own clear star.","estimatedTime":"10 weeks","previewFileId":"432e989c-a4b4-4b8f-82e8-8d048676b05d","createdByUserId":"e225f188-da5c-479a-b6f1-36b5e28dbe28"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDIyOjA5OjMyLjEwNjM4NyIsInVzZXJfaWQiOiI2NGM2Y2I0ZS1jMmE2LTQzZTctOTVlMS01YmYxNzcxZTAxYTAifQ.E_3S_ZiC55MBxaEevqu8kBK7yp_dww8lRi75yUKYoIo' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Indicate college she able.","maxScore":57,"minScore":11,"description":"Throw politics ask final poor. Power win scientist ok.\nLast second option task. Speak yeah traditional speech way. Will watch compare necessary account nearly.","estimatedTime":"1 weeks","previewFileId":"a2a4bca2-81b9-4533-85d6-806ee5105177","createdByUserId":"64c6cb4e-c2a6-43e7-95e1-5bf1771e01a0"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDIyOjA5OjM1LjYxMTc2MSIsInVzZXJfaWQiOiI2MzhmN2ZlNi1iYWRmLTRkYjMtOGI0NC0xN2M1NmFlMWNmZGQifQ.971JtiRxHtVL7Z2AZlC7ouHvKFHtBvDrRu1D3mRdZkE' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Son explain recognize best hard these.","maxScore":61,"minScore":11,"description":"Bag provide including. Nearly store learn live. Until vote week up beautiful lawyer plan.\nReveal method thank wide few sea address.","estimatedTime":"9 weeks","previewFileId":"0c8adfbb-ebc2-49fd-b2ad-15e866e42308","createdByUserId":"638f7fe6-badf-4db3-8b44-17c56ae1cfdd"}'

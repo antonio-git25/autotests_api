@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDIyOjA5OjMzLjUxNzQzMiIsInVzZXJfaWQiOiI1NDQzMTVmZC1hODE5LTQ2YmUtOWQ5Yi1mNzE4NTUyMjI0YmUifQ.UUPxuR_1mbi0w4A7fdB6DKlVKVsicgjKQ2pmpOLyUPU' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Soldier easy million ability.","maxScore":77,"minScore":27,"description":"Growth knowledge number remember. Young choice worry after any.\nRecognize bank likely age. List rest opportunity event tree near.","estimatedTime":"4 weeks","previewFileId":"a1a46bfa-1889-4f3f-81ae-72a112fa5e20","createdByUserId":"544315fd-a819-46be-9d9b-f718552224be"}'

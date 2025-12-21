@@ -1,0 +1,22 @@
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/users
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/users "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/authentication/login "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/files
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/files "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/courses
+INFO     httpx:_client.py:1025 HTTP Request: POST http://localhost:8000/api/v1/courses "HTTP/1.1 200 OK"
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base_validation.py:15 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses_validation.py:23 Check create course response
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "title" equals to Idea all trip use six.
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "max_score" equals to 56
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "min_score" equals to 22
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "description" equals to Human arm against keep actually hundred point street. Travel hard happen live full mean term just. Charge write pressure majority surface lose with.
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "estimated_time" equals to 9 weeks
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "preview_file_id" equals to 4dbcd1df-3f53-4d5f-816c-d42daa9e8c4b
+INFO     BASE_ASSERTIONS:base_validation.py:32 Check that "created_by_user_id" equals to 32a6102a-e0b5-4fde-a8bb-0d06a2e55e41
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema
