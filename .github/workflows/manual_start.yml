@@ -4,7 +4,7 @@
 # simple-elf/allure-report-action@v1.12 -> v1.13
 # peaceiris/actions-gh-pages@v4
 
-name: API tests
+name: API tests ManualPipeline
 
 on:
   push:
