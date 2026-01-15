@@ -8,12 +8,15 @@ from clients.exercises.exercises_schema import (GetExercisesQuerySchema, CreateE
 import allure
 from tools.routes import APIRoutes
 
+from clients.api_coverage import tracker  # Импортируем трекер
+
 
 class ExercisesClient(APIClient):
     """
     Клиент для работы с /api/v1/exercises
     """
     @allure.step("Get exercises")
+    @tracker.track_coverage_httpx(APIRoutes.EXERCISES)
     def get_exercises_api(self, query: GetExercisesQuerySchema) -> Response:
         """
         :param query: Словарь с exerciseId.
@@ -23,6 +26,7 @@ class ExercisesClient(APIClient):
 
 
     @allure.step("Get exercise by id {exercise_id}")
+    @tracker.track_coverage_httpx(f'{APIRoutes.EXERCISES}/{{exercise_id}}')
     def get_exercise_api(self, exercise_id: str) -> Response:
         """
         :param exercise_id: Идентификатор упражнения.
@@ -32,6 +36,7 @@ class ExercisesClient(APIClient):
 
 
     @allure.step("Create exercise")
+    @tracker.track_coverage_httpx(APIRoutes.EXERCISES)
     def create_exercise_api(self, request: CreateExerciseRequestSchema) -> Response:
         """
         :param request: Словарь с title, maxScore, minScore, description, estimatedTime,
@@ -42,6 +47,7 @@ class ExercisesClient(APIClient):
 
 
     @allure.step("Update exercise by id {exercise_id}")
+    @tracker.track_coverage_httpx(f'{APIRoutes.EXERCISES}/{{exercise_id}}')
     def update_exercises_api(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> Response:
         """
         :param exercises_id: Идентификатор упражнения.
@@ -52,6 +58,7 @@ class ExercisesClient(APIClient):
 
 
     @allure.step("Delete exercise by id {exercise_id}")
+    @tracker.track_coverage_httpx(f'{APIRoutes.EXERCISES}/{{exercise_id}}')
     def delete_exercises_api(self, exercise_id: str) -> Response:
         """
         :param exercise_id: Идентификатор упражнения.
